@@ -1,3 +1,3 @@
 class Plugin:
-    def run(self, data: dict) -> dict:
+    def run(self, operation, data):
         raise NotImplementedError("Plugin must implement run()")

@@ -1,6 +1,10 @@
 import os
 from core.plugin import Plugin
 
+import os
+from core.plugin import Plugin
+
+
 class FileListPlugin(Plugin):
     def run(self, data: dict) -> dict:
         folder = data.get("folder")
